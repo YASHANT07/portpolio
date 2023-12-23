@@ -1,4 +1,5 @@
 import "./App.css";
+import "./Style.css"
 import NavBar from "./NavBar";
 import Profile from "./Profile";
 import Projects from "./Projects";
@@ -7,12 +8,12 @@ import Contact from "./Contact";
 function App() {
   return (
     
-  <div>
+  <>
     
-    <div className="flex">
+    <div className="main-container">
       <NavBar />
       
-      <div className="ml-16 p-4 bg-slate-700 ">
+      <div className="side-container">
         <Profile/>
         <Projects/>
         <Skills/>
@@ -20,7 +21,7 @@ function App() {
       </div>
     </div>
     
-  </div>
+  </>
   );
 }
 

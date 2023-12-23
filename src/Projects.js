@@ -2,55 +2,80 @@ import React from 'react';
 
 const Projects = () => {
   return (
-    <div id="projects" className="ml-4 md:ml-16 mr-8">
-      <p className="mt-40 text-2xl text-white font-bold">Projects</p>
-      <card className="flex gap-x-0.5 mr-8">
-      <div className="relative">
-        <img
-          src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
-          className="m-10 rounded-lg w-72 h-64"/>
-         <span className="absolute top-0 left-0  bg-white text-black mt-48 p-2 w-72 ml-10 rounded-lg">
-          <p>ViewVibes</p>
-          <p>This is a streaming platform where you can access unlimited movies and live shows</p>
-         </span>
-      </div>
+    <div id="projects" className="md:ml-16">
 
-      <div className="relative">
-        <img
-          src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
-          className="m-10 rounded-lg w-72 h-64"/>
-         <span className="absolute top-0 left-0  bg-white text-black mt-48 p-2 w-72 ml-10 rounded-lg">
-          <p>ViewVibes</p>
-          <p>This is a streaming platform where you can access unlimited movies and live shows</p>
-         </span>
-      </div>
-         
-      <div className="relative">
-        <img
-          src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
-          className="m-10 rounded-lg w-72 h-64"/>
-         <span className="absolute top-0 left-0  bg-white text-black mt-48 p-2 w-72 ml-10 rounded-lg">
-          <p>ViewVibes</p>
-          <p>This is a streaming platform where you can access unlimited movies and live shows</p>
-         </span>
-      </div>
-       
+      <p className="mt-20 text-2xl text-white font-bold">Projects</p>
+
+      <card className="flex flex-wrap card-project">
+
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
 
 
-      <div className="relative">
-        <img
-          src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
-          className="m-10 rounded-lg w-72 h-64"/>
-         <span className="absolute top-0 left-0  bg-white text-black mt-48 p-2 w-72 ml-10 rounded-lg">
-          <p>ViewVibes</p>
-          <p>This is a streaming platform where you can access unlimited movies and live shows</p>
-         </span>
-      </div>
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
 
-      
 
-      </card> 
-      
+
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
+
+
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
+
+
+
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
+
+        <div className="flex-col justify-center items-center p-6 m-5 bg-slate-900 w-[400px] h-[100%] object-cover">
+          <img
+            src="https://i.pinimg.com/564x/37/25/ce/3725ce5d9c47b16c79fdafd4808171a2.jpg"
+            className="w-[300px] h-[100px] object-cover" />
+          <div className=" text-white mt-2 ">
+            <p className='text-yellow-100 font-bold'>ViewVibes</p>
+            <p>This is a streaming platform where you can access unlimited movies and live shows</p>
+          </div>
+        </div>
+
+      </card>
+
 
     </div>
   );
