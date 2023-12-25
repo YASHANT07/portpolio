@@ -11,8 +11,8 @@ const Profile = () => {
   return (
 
     <div className='cover-container' id="home" style={myStyle}>
-      <img width={"14%"} src={ProfilePic} alt='profile' />
-      <p className='font-bold text-slate-300'>Yashant Thakur</p>
+      <img className='profile-pic' src={ProfilePic} alt='profile' />
+      <p className='md:font-bold font-light text-slate-300'>Yashant Thakur</p>
     </div>
 
   );
