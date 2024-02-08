@@ -10,7 +10,7 @@ const Contact = () => {
 
         <p className="text-2xl mb-4">Let's Work Together</p>
 
-        <a href="mailto:thakuryashant100@gmail.com" target="_blank" rel="noopener noreferrer" className="flex items-center mr-4 mt -4">
+        <a  rel="noopener noreferrer" className="flex items-center mr-4 mt -4">
           <FaEnvelope size={24} color="#000" />
           <span className="ml-2">Email</span>
         </a>
